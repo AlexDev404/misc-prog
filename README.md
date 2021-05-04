@@ -22,6 +22,6 @@ This repository will remain active, and will stay active, until I either abandon
 Regular pushes will be done to this repository.
 
 You may reuse whatever code is in here but you must make sure to follow the `LICENSE`. 
-Even if a file is not marked with the `LICENSE` it is still under it.
+Even if a file is not marked with the `LICENSE` it is still governed under it.
 
 Happy Coding! :D
