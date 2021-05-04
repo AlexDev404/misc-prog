@@ -13,7 +13,7 @@ This bundle of code includes websites from:
 This bundle also includes some (actually many) test sites I created while experimenting with different tactics and methods when creating a website.
 
 Most of this code in this repository here is mostly reused and built upon from older websites I have created.
-All the code in here is mine (for the exception of Project #1, Project #2, Snek Online and VentureCo (template)) which were tutorials I followed when I was first starting out (credit to [DevEd](https://youtube.com/DevEd), you're amazing bro!) and rarely includes hooks to external libraries and frameworks. The only hooks I have used are for fonts and sometimes images.
+All the code in here is mine (for the exception of Project #1, Project #2, Snek Online and VentureCo (template)) which were tutorials I followed when I was first starting out (credit to [DevEd](https://youtube.com/DevEd), you're an amazing teacher!) and rarely includes hooks to external libraries and frameworks. The only hooks I have used are for fonts and sometimes images.
 
 Currently, I am creating an appstore, so I will be pushing regular updates for all to see here.
 
