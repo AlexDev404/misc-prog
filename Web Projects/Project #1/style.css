@@ -1,0 +1,279 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+button{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+    
+
+}
+
+nav{
+
+    flex: 2;
+}
+
+.logo{
+    font-weight: 400;
+}
+
+.logo-container{
+
+    flex: 1;
+
+}
+
+.logo-container, .nlinks, .cart{
+    display: flex;
+
+}
+
+.cart{
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.nlinks{
+    justify-content: space-around;
+    list-style: none;
+}
+.nlink{
+    color: #5F5F79;
+    text-decoration: none;
+    
+}
+.present{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+.intro{
+    flex: 1;
+}
+.intro-txt h1{
+    font-size: 44px;
+    font-weight: 500;
+    background: linear-gradient(to right, #494964, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.presentt{
+     align-items: center;
+     margin-left: 80px;
+     margin-right: 80px;
+}
+.presenttxt h2{
+    
+    font-size: 30px;
+    font-weight: 400;
+    background: linear-gradient(to right, #494964, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.presenttxt p{
+    margin-top: 5px;
+    font-size: 16px;
+    color: #4b4a2b;
+}
+
+.intro-txt p{
+    margin-top: 5px;
+    font-size: 22px;
+    color: #585722;
+}
+.cta{
+    padding: 50px 0px 0px 0px;
+}
+.cta-sel{
+    border: 2px solid #c36cbb;
+    color: #c36cbb;
+    background: transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+
+
+}
+.cta-add{
+    background: #c36cbb;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    color: white;
+    margin: 30px 0px 0px 30px;
+}
+.cover img{
+    height: 100%;
+    
+    filter: drop-shadow(0px 5px 3px black);
+    animation: drop 1.5s ease;
+}
+.cover{
+    flex: 1;
+    height: 60vh;
+}
+.big-cir{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.7;
+    height: 80%;
+}
+.med-cir{
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    z-index: -1;
+    height: 60%;
+    opacity: 0.5;
+}
+.small-cir{
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+    z-index: -1;
+    opacity: 0.3;
+}
+.buttn-sel{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 25%;
+}
+
+@keyframes drop {
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+h1{
+
+}
+
+@media screen and (max-width: 1054px){
+    .present {
+    flex-direction: column;
+}
+.intro{
+    margin-top: 5vh;
+    text-align: center;
+
+}
+.intro-txt p{
+    font-size: 18px;
+
+}
+.cta{
+    padding: 10px 0px 0px 0px;
+}
+.lapp-sel{
+    bottom: 5%;
+    right: 50%;
+    width: 50%;
+    transform: translate(50%, 5%);
+
+}
+.cover img{
+    height: 80%;
+}
+.small-cir,.med-cir,.big-cir{
+    opacity: 0.2;
+}
+}
+.modalbt{
+
+    margin: 0px;
+    padding: 10px 30px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.modalbg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+    z-index: 2;
+}
+.modal{
+    position: relative;
+    background-color: white;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.active-bg{
+    visibility: visible;
+    opacity: 1;
+}
+.modal-X{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+
+}
+.sub{
+
+    margin: 0px;
+    padding: 10px 30px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.logo{
+    font-weight: 100;
+    font-size: 12pt;
+}
+nav .nlinks{
+    font-weight: 100;
+    font-size: 11pt;
+    justify-content: space-around;
+}
+
+}

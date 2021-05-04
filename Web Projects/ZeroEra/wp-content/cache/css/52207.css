@@ -1,0 +1,7 @@
+<?php
+$data='';$self_path=dirname(__FILE__);$files=array('pagelayer-editor.css','pagelayer-editor-frontend.css','trumbowyg.min.css','pen.css','font-awesome.min.css','nivo-lightbox.css','owl.carousel.min.css','owl.theme.default.min.css','pagelayer-frontend.css','premium-frontend.css','animate.min.css','chartist.min.css',);$give=@$_REQUEST['give'];if(!empty($give)){$give=explode(',',$give);foreach($give as $file){if(in_array($file,$files)){$final[md5($file)]=$file;}}}
+if(empty($final)){$final=$files;}
+foreach($final as $k=>$v){$data.=file_get_contents($self_path.'/'.$v)."\n\n";}
+if(function_exists('ob_gzhandler')){ob_start('ob_gzhandler');}
+header("Content-type: text/css; charset: UTF-8");$filetime=filemtime($self_path.'/pagelayer-editor.css');header("Cache-Control: must-revalidate");if(isset($_SERVER['HTTP_IF_MODIFIED_SINCE'])&&(@strtotime($_SERVER['HTTP_IF_MODIFIED_SINCE'])>=$filetime)){header('Last-Modified: '.gmdate('D, d M Y H:i:s',$filetime).' GMT',true,304);return;}else{header('Last-Modified: '.gmdate('D, d M Y H:i:s',$filetime).' GMT',true,200);}
+echo $data;

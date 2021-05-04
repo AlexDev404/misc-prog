@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "BBCondensed";
+  src: url("/res/BurbankBigCondensed-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ManRope";
+  src: url("/res/Manrope-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ManRope";
+  src: url("/res/Manrope-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ManRope";
+  src: url("/res/Manrope-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ManRope";
+  src: url("/res/Manrope-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ManRope";
+  src: url("/res/Manrope-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ManRope";
+  src: url("/res/Manrope-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ManRope";
+  src: url("/res/Manrope-SemiBold.woff") format("woff");
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*.container {
+  height: 100vh;
+  background: linear-gradient(to top, #303036, #30bced, #208cb3);
+}*/
+header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 10vh;
+  align-items: center;
+}
+
+nav {
+  flex: 2;
+  font-family: "ManRope";
+}
+
+.logo-disc {
+  font-size: 1.5vw;
+  padding-left: 1.5vh;
+  font-weight: SemiBold;
+  color: #494949;
+}
+
+.logo-icon {
+  width: 4vh;
+}
+.logo-container {
+  flex: 2;
+}
+
+.logo-container,
+.nlinks {
+  display: flex;
+}
+
+.nlinks {
+  justify-content: space-around;
+  list-style: none;
+}
+.nlink {
+  color: #5f5f79;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #8f8f8f;
+  font-family: "ManRope";
+  font-weight: SemiBold;
+  font-size: 12vw;
+}
+.hero-caption {
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 1vw;
+  color: #bebebe;
+}
+.button1 {
+  cursor: pointer;
+  padding: 3vh 6vh 3vh 6vh;
+  border: 0;
+  border-radius: 1.2vw;
+  color: #fffaff;
+  font-family: "ManRope";
+  font-weight: Semibold;
+  font-size: 2.1vh;
+  background: linear-gradient(30deg, #ff885d, #ff6932);
+}
+.discord-link,
+.discord-link a {
+  font-size: 1vw;
+  color: #bebebe;
+}
+.discord-link a {
+  color: #acacac;
+  text-decoration: underline;
+}

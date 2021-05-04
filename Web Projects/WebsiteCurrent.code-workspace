@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "Xeon"
+		}
+	],
+	"settings": {
+		"phpserver.browser": "edge",
+		"phpserver.phpPath": "C:/php/php.exe",
+		"phpserver.router": "C:/php/router.php"
+	}
+}

@@ -1,0 +1,79 @@
+   <header class="navbar navbar-inverse navbar-static-top">
+<div class="container-fluid container-max-width">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand clearfix" href="/">
+            <span class="brand-icon">
+                <img src="/img/Xeon.png" alt="XeonOS">
+            </span>
+            <span class="brand-text">
+                <img src="/Images/Logo-text.svg" alt="Snazzy Maps">
+            </span>
+        </a>
+    </div>
+    <nav class="navbar-collapse collapse" data-disable-focus-out="true">
+        <div class="navbar-left">
+            <ul class="nav navbar-nav">
+                    <li class="">
+    <a href="/">
+        Home
+    </a>
+</li>
+
+                    <li class="">
+    <a href="/projects">
+        Projects
+    </a>
+</li>
+
+                    <li class="">
+    <a href="https://github.com/alexdev404">
+        Github Page
+            <!--span class="label-new">NEW</span>-->
+    </a>
+</li>
+
+                    <li class="">
+    <a href="/dwnld">
+        Download XeonOS
+    </a>
+</li>
+                    <li class="">
+    <a href="http://atom-online.ml">
+        our other site
+    </a>
+</li>
+
+<li class="">
+    <a href="/about">
+        About
+    </a>
+</li>
+
+            </ul>
+        </div> 
+        <div class="navbar-right">
+            <ul class="nav navbar-nav">
+<li class="user-account clearfix">
+    <div class="user-style-links clearfix">
+        <a class="btn-no-underline register-link" href="/account/register">Register</a>
+        <a class="btn-no-underline login-link" href="/account/login">Log in</a>
+    </div>
+    <div class="user-settings-wrapper hidden-xlg">
+        <button type="button" class="user-links-toggle" data-toggle="collapse" data-target=".user-settings">
+            <img src="/Images/icon-account-circle.svg" alt="">
+        </button>
+        <div class="user-settings collapse">
+            <a class="btn-no-underline register-link" href="/account/register">Register</a>
+            <a class="btn-no-underline login-link" href="/account/login">Log in</a>
+        </div>
+    </div>
+</li>             </ul>
+        </div> 
+    </nav>
+</div>
+</header>

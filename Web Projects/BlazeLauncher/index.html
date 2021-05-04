@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="blazeui.js"></script>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/tabbedui.css" />
+    <link rel="stylesheet" href="/css/standardUI.css" />
+    <link rel="stylesheet" href="/css/logs.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="res/Blaze/tbico.svg" type="image/svg" />
+    <title>Blaze Bootstrapper</title>
+  </head>
+  <body>
+    <header>
+      <div class="logomark">
+        <img src="/res/Blaze/tbico-full.png" alt="Blaze Logo" />
+      </div>
+      <nav>
+        <button
+          class="tablink"
+          id="defaultOpen"
+          onclick="openPage('Home', this)"
+        >
+          Home
+        </button>
+        <button
+          class="tablink"
+          onclick="openPage('LobbyThemes', this, '#3f3f3f')"
+        >
+          Lobby Themes
+        </button>
+        <button class="tablink" onclick="openPage('Logs', this, '#3f3f3f')">
+          Logs
+        </button>
+        <button class="tablink" onclick="openPage('Settings', this, '#3f3f3f')">
+          Settings
+        </button>
+        <button
+          class="tablink tabend"
+          onclick="openPage('About', this, '#3f3f3f')"
+        >
+          Credits / Attrib.
+        </button>
+      </nav>
+    </header>
+
+    <div id="Home" class="tabcontent">
+      <div class="container">
+        <div class="logo">
+          <img src="/res/blaze/tbico.svg" />
+          Blaze
+        </div>
+
+        <div class="ui">
+          <div class="inputcombo">
+            <input
+              type="text"
+              class="pathvalue"
+              placeholder="Fortnite Path Value"
+            /><button class="button2">Browse</button>
+          </div>
+          <button class="button1">Start</button>
+          <div class="discord-link">
+            Want to request beta access? Join our
+            <a href="https://discord.gg/Qtn9mhyKeN" target="_blank">Discord</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="LobbyThemes" class="tabcontent">
+      <div class="indev-text">Coming Soon...</div>
+      <div class="indev">
+        <h1 class="title">Lobby Theme (choose one)</h1>
+        <p>
+          This is the background that will be displayed when you enter in-game.
+        </p>
+        <div class="wrapper">
+          <table>
+            <tr>
+              <td>
+                <label class="checkbox-container"
+                  >Season 0
+                  <input type="checkbox" checked="checked" />
+                  <span class="checkmark"></span>
+                </label>
+              </td>
+              <td>
+                <label class="checkbox-container"
+                  >Season 1
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label class="checkbox-container"
+                  >Season 2
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </td>
+              <td>
+                <label class="checkbox-container"
+                  >Season 3
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div id="Logs" class="tabcontent">
+      <div class="logs">
+        <p>BlazeLauncher v1.0</p>
+        <p class="log-text">[INFO] Testing Testing 1, 2, 3</p>
+      </div>
+      <div class="options-logs">
+        <label class="checkbox-container"
+          >Turn on RES Logging (Requires a server restart)
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="checkbox-container"
+          >Turn on REQ Logging (Requires a server restart)
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+    </div>
+
+    <div id="Settings" class="tabcontent">
+      <div class="settings-header">THEME</div>
+      <label class="checkbox-container"
+        >Dark Theme
+        <input type="checkbox" />
+        <span class="checkmark"></span>
+      </label>
+      <label class="checkbox-container"
+        >Light Theme
+        <input type="checkbox" />
+        <span class="checkmark"></span>
+      </label>
+      <div class="settings-header">CONNECTION MODE</div>
+      <label class="checkbox-container"
+        >Online
+        <input type="checkbox" />
+        <span class="checkmark"></span>
+      </label>
+      <label class="checkbox-container"
+        >Offline
+        <input type="checkbox" />
+        <span class="checkmark"></span>
+      </label>
+      <!--h3 class="pathtype">Server IP =</h3>
+      <input type="text" value="default" /><br /-->
+      <div class="settings-header">BACKEND CONFIG</div>
+      <label class="checkbox-container"
+        >Debug
+        <input type="checkbox" />
+        <span class="checkmark"></span>
+      </label>
+      <label class="checkbox-container"
+        >Auto-updates
+        <input type="checkbox" />
+        <span class="checkmark"></span>
+      </label>
+      <div class="settings-header">LAUNCHER CONFIG</div>
+      <!--h3 class="pathtype">Fortnite Path =</h3>
+      <input type="text" /><br /--><label class="checkbox-container"
+        >Auto-updates
+        <input type="checkbox" />
+        <span class="checkmark"></span>
+      </label>
+      <button class="button-round-red">Install Backend</button>
+      <button class="button-round-blue">Check for Updates</button>
+    </div>
+    <div id="About" class="tabcontent">
+      <div class="settings-header">CREDITS</div>
+      <div class="list-member">
+        AlexDev404 (AKA PracticalCoder) - Website, launcher, backend
+      </div>
+      <div class="list-member">Vinzy - Testing, website, launcher</div>
+      <div class="list-member">Sparmage - Prototyping backend</div>
+      <div class="list-member">McMistrzYT - Backend</div>
+      <div class="list-member">Workeyy - Bot Team</div>
+      <div class="list-member">GavinGoGaming - Bot Team</div>
+      <div class="list-member">Forky - Beta Tester</div>
+    </div>
+    <footer>
+      <button class="logs-button">Logs</button>
+    </footer>
+  </body>
+</html>

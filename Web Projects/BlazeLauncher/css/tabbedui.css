@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set height of body and the document to 100% */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+.logomark {
+  display: flex;
+  flex-direction: row-reverse;
+  z-index: -2;
+}
+.logomark img {
+  width: 10vw;
+  padding: 0.5vw 0.5vw 0.5vw 0.5vw;
+}
+nav {
+  display: flex;
+}
+/* Style tab links */
+.tablink {
+  flex: 1;
+  background-color: #555555;
+  color: white;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  margin-right: 0.5vw;
+  font-size: 17px;
+  width: 25%;
+}
+.tabend {
+  margin-right: 0.5vw;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.indev {
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0.082);
+  filter: blur(8px);
+  -webkit-filter: blur(10px);
+  z-index: 2;
+}
+.indev-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5vw;
+  font-weight: 600;
+  color: #0c0c0c;
+  text-align: center;
+  z-index: 3;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: rgb(0, 0, 0);
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+#defaultOpen {
+  background: linear-gradient(30deg, #ff5d5d, #cc2929);
+}

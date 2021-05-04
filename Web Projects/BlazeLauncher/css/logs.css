@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logs {
+  color: blue;
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  z-index: -1;
+  display: block;
+  top: 45%;
+  left: 50%;
+  height: 55vh;
+  width: 55vw;
+  margin: auto;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.904);
+  padding-top: 1vw;
+  padding-left: 1vw;
+}
+.log-text {
+  display: block;
+  color: red;
+}
+.options-logs {
+  position: absolute;
+  bottom: 0;
+  left: 12.5%;
+  height: 60px;
+  padding-bottom: 5.5%;
+}

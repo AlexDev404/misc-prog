@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/standardUI.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/octicons/octicons.css" />
+    <title>Developer Portal</title>
+  </head>
+  <body>
+    <div class="banner-top">
+      <div class="center-text">
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+          <g>
+            <title>Octicon-Package</title>
+            <path
+              stroke="#ffffff"
+              fill="#ffffff"
+              id="svg_1"
+              d="m13.00933,1.17333a1.75,1.75 0 0 0 -1.75,0l-8.25,4.762a1.75,1.75 0 0 0 -0.875,1.515l0,9.525c0,0.625 0.334,1.203 0.875,1.515l8.25,4.763a1.75,1.75 0 0 0 1.75,0l8.25,-4.762a1.75,1.75 0 0 0 0.875,-1.516l0,-9.525a1.75,1.75 0 0 0 -0.875,-1.515l-8.25,-4.763l0,0.001zm-1,1.298a0.25,0.25 0 0 1 0.25,0l7.625,4.402l-7.75,4.474l-7.75,-4.474l7.625,-4.402zm-8.375,5.702l0,8.803c0,0.09 0.048,0.172 0.125,0.216l7.625,4.402l0,-8.947l-7.75,-4.474zm9.25,13.421l7.625,-4.402a0.25,0.25 0 0 0 0.125,-0.216l0,-8.804l-7.75,4.474l0,8.947l0,0.001z"
+              fill-rule="evenodd"
+            />
+          </g>
+        </svg>
+        Developer Portal
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="container-center">
+        <h1 class="settings-header">Login</h1>
+        <% if (messages.error) { %>
+        <div class="auth-err"><%= messages.error %></div>
+        <% } %>
+        <form action="/login" method="POST">
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="input-block"
+              required
+            />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="input-block"
+              required
+            />
+          </div>
+          <button type="submit" class="button-sharp-red">Login</button>
+        </form>
+        <a href="/register">Register</a>
+      </div>
+    </div>
+  </body>
+</html>

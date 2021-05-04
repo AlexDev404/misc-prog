@@ -1,0 +1,78 @@
+/* CSS files add styling rules to your content */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+html,
+body,
+section {
+  height: 100%;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flexbox {
+  display: flex;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background: transparent;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  height: 10vh;
+  align-items: center;
+}
+nav {
+  flex: 2;
+}
+.nlinks {
+  justify-content: space-around;
+  list-style: none;
+  display: flex;
+}
+.nlink {
+  color: #5f5f79;
+  text-decoration: none;
+}
+.intro {
+  margin: 0px;
+  padding: 0px;
+  flex: 1;
+  font-size: 130px;
+  background: #fee1e0;
+  /* Color right here --> 
+    #FFFBFE
+    #760044
+    #FFFBFE
+    */
+  /*color: #FFFBFE;*/
+  color: #273746;
+}
+/*.intro-txt{
+          -webkit-text-stroke: 5.11px black; /* stroke width and color */
+/*color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+}*/
+.two {
+  padding-left: 265px;
+  padding-right: 50px;
+}
+.txt-2 {
+  color: #fee1e0;
+  font-size: 100px;
+  flex: 1;
+  background: #273746;
+}
+.txt2h1 {
+  padding-bottom: 580px;
+  text-align: center;
+  right: 0px;
+  transform: rotate(90deg);
+}

@@ -1,0 +1,17 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.card {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+
+.custom-switch input[type="checkbox"] {
+  display: none;
+}
+
+.table thead th {
+  vertical-align: middle !important;
+}

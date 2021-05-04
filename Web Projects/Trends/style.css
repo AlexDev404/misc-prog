@@ -1,0 +1,73 @@
+/* CSS files add styling rules to your content */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+html,
+body,
+section {
+  height: 100%;
+}
+video {
+  padding-top: 10vh;
+}
+.sc1,
+.sc2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 210px;
+}
+.container {
+  display: flex;
+  z-index: -1;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.sc1 {
+  margin: 0px;
+  padding: 0px;
+  flex: 1;
+  font-size: 50px;
+  background: #a3659e;
+  /* Color right here --> 
+    #FFFBFE
+    #760044
+    #FFFBFE
+    */
+  /*color: #FFFBFE;*/
+  color: #c2d4c9;
+}
+/*.intro-txt{
+          -webkit-text-stroke: 5.11px black; /* stroke width and color */
+/*color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+}*/
+
+.sc2 {
+  color: #a3659e;
+  font-size: 35px;
+  flex: 1;
+  background: #c2d4c9;
+}
+.sc2 h3 {
+  padding-top: 10vh;
+  margin-left: 20px;
+}
+video {
+  margin-top: -50px;
+  margin-left: 600px;
+}

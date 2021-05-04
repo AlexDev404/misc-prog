@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "BBCondensed";
+  src: url("/res/BurbankBigCondensed-Black.woff") format("woff");
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background: linear-gradient(to top, #303036, #30bced, #208cb3);
+}
+
+.logo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fffaff;
+  font-family: "BBCondensed";
+  font-size: 15vw;
+}
+.hero-caption {
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 15px;
+  color: #fffaff;
+}
+.download {
+  cursor: pointer;
+  padding: 3vh 6vh 3vh 6vh;
+  border: 0;
+  border-radius: 1.9vw;
+  color: #fffaff;
+  font-weight: bold;
+  font-size: 2.1vh;
+  background: linear-gradient(30deg, #30bced, #f06c9b);
+}
+.features {
+  position: relative;
+  z-index: 2;
+  background: white;
+  padding-bottom: 5vw;
+}
+
+.feature-text {
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+/* .carousel {
+  background: #00ee77;
+}*/
+
+.carousel-cell {
+  width: 100vh;
+  height: 100vh;
+  margin-right: 10px;
+  background: #65bcd1; /* Placeholder if image doesn't load */
+}
+.gallery-caption {
+  background: #fafafa;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+.discord {
+  position: relative;
+  z-index: 2;
+  height: 80vh;
+  padding: 10vh, 10vh, 10vh, 10vh;
+  background: #044e80;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+.tutorial {
+  position: relative;
+  z-index: 2;
+  height: 50vh;
+  padding: 10vh, 10vh, 10vh, 10vh;
+  background: #06609c;
+  font-size: 2.5vw;
+  text-align: center;
+}
+.downloads {
+  position: relative;
+  z-index: 2;
+  height: 25vh;
+  padding: 10vh, 10vh, 10vh, 10vh;
+  background: #0e7ec9;
+  font-size: 2.5vw;
+  text-align: center;
+}
+.credits {
+  position: relative;
+  z-index: 2;
+  height: 15vh;
+  padding: 10vh, 10vh, 10vh, 10vh;
+  background: #319fe9;
+  font-size: 2.5vw;
+  text-align: center;
+}

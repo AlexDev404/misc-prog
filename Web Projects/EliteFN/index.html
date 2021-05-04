@@ -1,0 +1,137 @@
+<!--
+index.html - This is what utilizes all the amazing CSS included in the website to make
+a beautiful page appear onto your screen
+Copyright (C) 2021 Immanuel Garcia
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see http://www.gnu.org/licenses/old-licenses/gpl-2.0.html.
+--->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/standardUI.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>EliteFN</title>
+  </head>
+  <body>
+    <header>
+      <a href="https://discord.gg/3rkNGvpV4d" target="__blank">
+        <div class="discord-hi-1">
+          <img class="discord-hi" src="./img/discord-hi.png" alt="Discord Hi" />
+          <div class="discord-hi-1-text">Discord</div>
+          <div class="discord-hi-1-wrapper"></div></div
+      ></a>
+      <div class="discord-hi-1 overrides-discord-hi-1">
+        <img
+          class="discord-hi"
+          src="./img/elite-icon.png"
+          alt="Discord Hi"
+          style="top: 4.5%"
+        />
+        <div class="discord-hi-1-text" style="width: 7vw">Kool Kid Squad</div>
+        <div class="discord-hi-1-wrapper"></div>
+      </div>
+      <div class="logo-container">
+        <form action="#">
+          <img class="logo-img" src="./img/elite-icon.png" alt="logo" />
+        </form>
+        <h4 class="logo">Project Elite</h4>
+      </div>
+      <nav>
+        <ul class="nlinks">
+          <li>
+            <a class="nlink" href="./"
+              ><button class="button-sharp-red">HOME</button></a
+            >
+          </li>
+          <li>
+            <a class="nlink" href="#"
+              ><button class="button-sharp-red">DOWNLOAD</button></a
+            >
+          </li>
+          <li>
+            <a class="nlink" href="#"
+              ><button class="button-sharp-red">ABOUT</button></a
+            >
+          </li>
+          <li>
+            <a
+              class="nlink"
+              href="https://discord.gg/3rkNGvpV4d"
+              target="__blank"
+              ><button class="button-round-discord">
+                <discord-button-wrapper
+                  ><img
+                    class="discord-hi"
+                    src="./img/discord-hi.png"
+                    alt="Discord Hi"
+                  /><discord>Discord</discord></discord-button-wrapper
+                >
+              </button></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div></div>
+    </header>
+    <div class="container">
+      <div class="text">PROJECT ELITE</div>
+    </div>
+
+    <div class="table">
+      <div class="tr">
+        <div class="td header-bg">
+          <!-- #1 -->
+          <div class="left-pane" style="top: 30%">WHAT IS PROJECT ELITE?</div>
+        </div>
+        <div class="td header-bg">
+          <!-- #3 -->
+          <div class="left-pane">
+            DOWNLOADS
+            <div class="captions">some text for 3rd square...</div>
+          </div>
+        </div>
+      </div>
+      <div class="tr">
+        <div class="td mar-top-fix">
+          <!-- #2 -->
+          <div class="right-pane">
+            <div class="captions">Some text for 2nd square...</div>
+          </div>
+          <button class="button-sharp-red overrides-button-sharp-red">
+            DOWNLOAD LATEST VERSION
+          </button>
+        </div>
+        <div class="td mar-top-fix">
+          <!-- #4 -->
+          <div class="right-pane">
+            <div class="captions">VERSIONS</div>
+          </div>
+          <button class="button-sharp-red overrides-button-sharp-red">
+            DOWNLOAD LATEST VERSION
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- -->
+    <div class="hero-bottom">
+      <div class="hero-bottom-text">ABOUT</div>
+      <div class="captions hero-captions">some text...</div>
+    </div>
+  </body>
+</html>
