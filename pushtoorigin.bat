@@ -1,28 +1,28 @@
 @echo off
 title PUSH + UPDATE SOURCE SCRIPT
 echo Setting Path...
-echo .
+echo.
 set gitdir=C:\Users\User 1\Downloads\PortableGit
 set path=%gitdir%\cmd;%path%
 echo Adding Files...
-echo .
+echo.
 git add .
-echo .
+echo.
 echo Commiting Source...
-echo .
+echo.
 git commit -m "Updated Source"
-echo .
+echo.
 echo Adding Origin (if not already added)...
-echo .
+echo.
 git remote add origin https://github.com/AlexDev404/misc-prog.git
-echo .
+echo.
 echo Verifying Remote...
-echo .
+echo.
 git remote -v
-echo .
+echo.
 echo Pushing to Origin...
-echo .
+echo.
 git push origin master
-echo .
+echo.
 echo Done!
 pause
