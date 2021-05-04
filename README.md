@@ -2,7 +2,7 @@
 Miscellaneous Programs and websites I have been working on in the past couple of years and use for creating websites and other projects.
 
 I am sharing this to the community in case somebody wants to use the source for one of their websites or projects.
-This is the source I personally use when creating websites for people or organizations.
+This is the source I personally use myself regularly when creating websites for people or organizations.
 
 This bundle of code includes websites from:
 
