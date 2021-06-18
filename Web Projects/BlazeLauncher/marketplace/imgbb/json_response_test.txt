@@ -1,0 +1,32 @@
+{
+  id: '26Sy9tM',
+  title: '5e7599f65f27',
+  url_viewer: 'https://ibb.co/26Sy9tM',
+  url: 'https://i.ibb.co/z5FrMR2/5e7599f65f27.png',
+  display_url: 'https://i.ibb.co/z5FrMR2/5e7599f65f27.png',
+  size: 260258,
+  time: '1609336605',
+  expiration: '0',
+  image: {
+    filename: '5e7599f65f27.png',
+    name: '5e7599f65f27',
+    mime: 'image/png',
+    extension: 'png',
+    url: 'https://i.ibb.co/z5FrMR2/5e7599f65f27.png'
+  },
+  thumb: {
+    filename: '5e7599f65f27.png',
+    name: '5e7599f65f27',
+    mime: 'image/png',
+    extension: 'png',
+    url: 'https://i.ibb.co/26Sy9tM/5e7599f65f27.png'
+  },
+   medium: {
+   filename: '5e7599f65f27.png',
+    name: '5e7599f65f27',
+    mime: 'image/png',
+    extension: 'png',
+    url: 'https://i.ibb.co/14kK0tt/5e7599f65f27.png'
+  },
+  delete_url: 'https://ibb.co/26Sy9tM/087a7edaaac26e1c940283df07d0b1d7'
+}

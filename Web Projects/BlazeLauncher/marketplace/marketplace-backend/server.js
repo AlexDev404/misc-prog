@@ -2,7 +2,9 @@ const express = require("express");
 const mongoose = require("mongoose");
 const Package = require("./models/package");
 const methodOverride = require("method-override");
+const imgbb = require("imgbb-uploader");
 const app = express();
+const imgkey = "31b81fce5f36c48508a5e6a87847f4f5";
 
 mongoose.connect("mongodb://localhost/shop", {
   useNewUrlParser: true,
@@ -10,6 +12,10 @@ mongoose.connect("mongodb://localhost/shop", {
   useCreateIndex: true,
 });
 const connection = mongoose.connection;
+
+imgbb(imgkey, "path/to/your/image.png")
+  .then((response) => console.log(response))
+  .catch((error) => console.error(error));
 
 connection.once("open", function () {
   app.use(express.urlencoded({ extended: false }));
