@@ -1,0 +1,59 @@
+* {
+  animation: color-me-in 20s ease;
+  font-family: "Montserrat", sans-serif;
+  background: #eb81a1;
+}
+
+.container_one {
+  text-align: center;
+  color: white;
+}
+.big_text {
+  background: transparent;
+  font-size: 250px;
+  animation: 1s ease-out 0s 1 big_text;
+}
+.small_text {
+  background: transparent;
+  font-size: 50px;
+  animation: 1s ease-out 0s 1 small_text;
+  transition: 0.5s;
+}
+
+@keyframes color-me-in {
+  0% {
+    background: black;
+  }
+  15% {
+    background: #948d51;
+  }
+  25% {
+    background: #ebe181;
+  }
+  50% {
+    background: #a681eb;
+  }
+  100% {
+    background: #eb81bb;
+  }
+}
+
+@keyframes big_text {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transition: 2s;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes small_text {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
