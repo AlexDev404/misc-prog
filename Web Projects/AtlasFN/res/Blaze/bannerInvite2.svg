@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="2048"
+   height="1152"
+   viewBox="0 0 2048 1152"
+   sodipodi:docname="bannerInvite2.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:export-filename="C:\Data\git ( Web Design - Web Proj )\misc-prog\Web Projects\AtlasFN\res\Blaze\bannerInvite.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <rect
+       x="3029.1633"
+       y="1750.1832"
+       width="2692.5896"
+       height="751.68115"
+       id="rect7456" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1432">
+      <stop
+         style="stop-color:#ff2b05;stop-opacity:0.96736598"
+         offset="0"
+         id="stop1428" />
+      <stop
+         style="stop-color:#ff00e5;stop-opacity:0.17948718"
+         offset="1"
+         id="stop1430" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1432"
+       id="linearGradient854"
+       x1="315.33792"
+       y1="454.54352"
+       x2="514.04297"
+       y2="454.54352"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(6.2054935,0,0,6.2055264,-586.89363,-760.7)" />
+    <rect
+       x="3029.1633"
+       y="1750.1832"
+       width="5362.7407"
+       height="89.752884"
+       id="rect7456-9" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.25210768"
+     inkscape:cx="91.230858"
+     inkscape:cy="517.63596"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="svg 1"
+     transform="translate(-307.17511,322.60883)">
+    <rect
+       style="display:inline;fill:#130229;fill-opacity:1;stroke:none;stroke-width:22.5089;stroke-linecap:round"
+       id="rect848"
+       width="2048"
+       height="1152"
+       x="307.17511"
+       y="-322.60883"
+       ry="0"
+       inkscape:export-filename="C:\Users\User 1\Downloads\alpha_realm2.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="svg"
+     style="display:inline"
+     transform="translate(-465.86555,124.06529)">
+    <g
+       id="g93506"
+       transform="matrix(0.23791558,0,0,0.23791558,663.9363,-38.167186)">
+      <path
+         style="fill:url(#linearGradient854);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1543.4682,2892.1671 c 0,0 -112.0496,-178.4051 -119.6653,-204.514 -7.6117,-26.1063 -35.8975,-177.3104 -35.8975,-201.2446 0,-23.9332 -10.4682,-49.7928 -13.0553,-75.0637 -4.7088,-46.191 -5.7231,-92.8144 -4.3478,-139.2374 1.0669,-36.0286 0.6608,-72.8251 9.789,-107.6929 16.6143,-63.4359 51.5466,-120.6568 80.4975,-179.4925 73.0678,-148.4735 164.1803,-287.7347 234.9718,-437.3093 19.1274,-40.4105 38.836,-81.0153 51.125,-124.0033 24.7563,-86.6081 44.599,-266.5186 44.599,-266.5186 0,0 24.1993,143.5019 52.2158,209.9512 27.8349,66.0185 75.6376,121.7033 113.1382,182.7522 71.1139,115.7869 212.1181,348.1019 212.1181,348.1019 l 43.5208,133.8032 77.2285,-159.9082 c 0,0 22.8457,-76.1481 27.1977,-82.6793 4.3537,-6.5256 22.8431,-141.4127 22.8431,-141.4127 l 13.0547,-6.5274 25.0185,94.6404 c 0,0 27.8621,83.8163 43.513,125.1 32.7944,86.5082 72.2765,170.3805 105.5152,256.7248 8.8619,23.0155 17.1246,46.2567 25.0227,69.621 9.989,29.5509 21.0971,58.8482 28.2882,89.1935 11.1566,47.1719 22.8407,138.1562 22.8407,143.598 0,5.4431 -13.0523,239.3222 -13.0523,239.3222 0,0 -26.1139,90.2896 -36.9896,104.4318 -10.8777,14.1398 -104.438,199.0705 -104.438,199.0705 l -169.6884,-402.4934 -137.0655,252.3752 -15.234,-172.9636 -5.4382,-58.7421 c 0,0 -16.9181,-71.5213 -32.6335,-104.4305 -12.3932,-25.9559 -29.628,-49.5537 -47.8655,-71.8003 -13.9743,-17.051 -30.0604,-32.3889 -46.7735,-46.7756 -22.207,-19.1102 -49.3324,-32.1775 -70.7082,-52.2185 -11.0773,-10.3779 -21.8293,-21.6241 -29.3706,-34.8052 -10.2969,-18.0183 -14.3156,-38.978 -20.6695,-58.7419 -5.5497,-17.2618 -9.1503,-35.135 -15.226,-52.2148 -6.871,-19.2904 -15.5764,-37.8789 -23.9368,-56.5653 -8.6717,-19.4009 -25.0199,-53.3096 -27.1933,-57.6594 -2.176,-4.3484 -13.0535,5.4415 -13.0535,5.4415 0,0 -13.3063,46.5234 -25.0221,67.4457 -26.2318,46.8421 -71.5217,80.8368 -99.4845,126.6722 -28.2001,46.233 -50.8834,96.208 -67.6877,147.691 -15.9146,48.7632 -24.6166,129.2252 -30.77,150.7633 -6.1491,21.5366 -27.6831,135.3811 -27.6831,153.8395 v 76.9316 c 0,12.2956 -6.1595,73.8319 -6.1595,73.8319 z"
+         id="path1036"
+         sodipodi:nodetypes="cccaaaaaacaacccccccaaaaccccccccaaaaaaaaccaaaccccc" />
+      <text
+         xml:space="preserve"
+         transform="translate(-71.301586,228.64197)"
+         id="text7454"
+         style="font-style:normal;font-weight:normal;font-size:1000px;line-height:666.665px;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect7456);fill:#000000;fill-opacity:1;stroke:none"
+         x="1254.2242"
+         y="0"><tspan
+           x="3065.9612"
+           y="2370.8464"
+           id="tspan1010"><tspan
+             style="font-weight:800;font-family:Manrope;-inkscape-font-specification:'Manrope Ultra-Bold';fill:#fcfcfc"
+             id="tspan1008">Blaze</tspan></tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="translate(-918.36497,1542.215)"
+       id="text7454-4"
+       style="font-style:normal;font-weight:normal;font-size:100px;line-height:66.6664px;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect7456-9);display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="1254.2242"
+       y="0"><tspan
+         x="3029.1641"
+         y="1812.2498"
+         id="tspan1014"><tspan
+           dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.00010681152 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.00011444092 0 0 0 0.00012207031 -0.0001373291 0.00018310547 -0.00012969971 0 0.00012207031 0 0 0 0 0 0 0.00011444092 0 0 0 -0.00012969971 0.00022125244 0 -0.00015258789 0 0.00010681152 -0.00012207031"
+           style="font-weight:300;font-family:Manrope;-inkscape-font-specification:'Manrope Light';text-align:justify;fill:#fcfcfc"
+           id="tspan1012">The original one-and-only private server and modding platform for Fortnite!</tspan></tspan></text>
+  </g>
+</svg>
